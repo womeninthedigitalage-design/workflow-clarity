@@ -68,3 +68,5 @@
 .talk-cta{padding-top:88px;padding-bottom:92px;background:#fff;text-align:center}.talk-cta-inner{max-width:690px;margin:0 auto}.talk-cta h2{font-size:clamp(34px,4vw,54px)}.talk-cta p:not(.eyebrow){max-width:595px;margin:17px auto 26px;color:var(--muted);font-size:17px;line-height:1.6}
 
 @media(max-width:650px){.header-actions .button span,.outcome-copy .button span{display:none}.header-actions .button,.outcome-copy .button{gap:0}.header-actions .button{padding-inline:13px;white-space:nowrap}}
+
+@media(max-width:650px){.audit-visual img{height:auto;aspect-ratio:auto;object-fit:contain;object-position:center}}

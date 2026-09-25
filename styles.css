@@ -70,3 +70,6 @@
 @media(max-width:650px){.header-actions .button span,.outcome-copy .button span{display:none}.header-actions .button,.outcome-copy .button{gap:0}.header-actions .button{padding-inline:13px;white-space:nowrap}}
 
 @media(max-width:650px){.audit-visual img{height:auto;aspect-ratio:auto;object-fit:contain;object-position:center}}
+
+/* Keep the privacy hero in one column once the desktop card no longer fits. */
+@media(max-width:900px){.legal-hero{grid-template-columns:1fr;gap:30px}.legal-hero-card{max-width:420px}}

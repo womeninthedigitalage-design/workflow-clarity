@@ -80,3 +80,5 @@
 
 /* Centered video lightbox — player content is created only after the visitor opens it. */
 body.video-modal-open{overflow:hidden}.video-modal{align-items:center;padding:clamp(16px,4vw,44px)}.video-modal-panel{width:min(1100px,100%);padding:0;overflow:hidden;border-radius:20px;background:#101c38;box-shadow:0 30px 90px rgba(0,0,0,.45)}.video-modal-close{position:absolute;z-index:2;top:14px;right:14px;width:38px;height:38px;background:rgba(255,255,255,.92);box-shadow:0 4px 14px rgba(0,0,0,.18)}.video-frame{width:100%;aspect-ratio:16/9;border-radius:0}.video-frame video,.video-frame iframe{display:block;width:100%;height:100%;border:0}@media(max-width:600px){.video-modal{align-items:center;padding:16px}.video-modal-panel{margin-top:0;border-radius:16px}.video-modal-close{top:10px;right:10px;width:34px;height:34px}}
+
+@media(max-width:700px){.playbook-actions{display:grid;grid-template-columns:1fr;width:100%}.playbook-actions .button,.playbook-actions .video-trigger{width:100%;min-height:54px;padding:15px 18px}.playbook-actions .video-trigger{border:1px solid rgba(38,59,86,.2);border-radius:10px;background:rgba(255,255,255,.45)}}

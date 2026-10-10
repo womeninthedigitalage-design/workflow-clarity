@@ -69,6 +69,9 @@
 
 @media(max-width:650px){.header-actions .button span,.outcome-copy .button span{display:none}.header-actions .button,.outcome-copy .button{gap:0}.header-actions .button{padding-inline:13px;white-space:nowrap}}
 
+/* Mobile navigation: keep the header focused on the menu rather than a duplicate CTA. */
+@media(max-width:650px){.site-header .header-actions{display:none}.site-header .menu-toggle{margin-left:auto;order:initial}.site-header .menu-toggle span{width:25px}}
+
 @media(max-width:650px){.audit-visual img{height:auto;aspect-ratio:auto;object-fit:contain;object-position:center}}
 
 /* Keep the privacy hero in one column once the desktop card no longer fits. */
